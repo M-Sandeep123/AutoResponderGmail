@@ -1,0 +1,24 @@
+{
+  "name": "autorespondergmail",
+  "version": "1.0.0",
+  "description": "AutoResponderGmail: Node.js app auto-replies to new Gmail emails when user's away. Detects unread, unreplied emails, sends preset replies, labels, &amp; moves to inbox category. Randomly operates every 45-120 secs for efficient management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Sandeep123/AutoResponderGmail.git"
+  },
+  "author": "Sandeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Sandeep123/AutoResponderGmail/issues"
+  },
+  "homepage": "https://github.com/M-Sandeep123/AutoResponderGmail#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^129.0.0"
+  }
+}
